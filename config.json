@@ -1,0 +1,12 @@
+{
+    "public_address":{
+        "ipv4": "", 
+        "ipv6": ""
+        },
+
+    "ddns": {
+        "hostname": "",
+        "username": "",
+        "password": ""
+    }
+}
