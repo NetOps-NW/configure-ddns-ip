@@ -11,7 +11,7 @@ ddns = support.from_json(path="config.json")["ddns"];
 def retrieve_public_address():
     response = requests.get("https://api.myip.com/");
     if response.status_code == 200:
-        if re.search("\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}", response.json()["ip"]):
+        if re.search("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", response.json()["ip"]):
             public_address["ipv4"] = response.json()["ip"];
         else:
             public_address["ipv6"] = response.json()["ip"];
