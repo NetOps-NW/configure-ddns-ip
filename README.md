@@ -1,2 +1,2 @@
 
-# Modify Dynamic DNS IP
+# Configure Dynamic DNS IP
